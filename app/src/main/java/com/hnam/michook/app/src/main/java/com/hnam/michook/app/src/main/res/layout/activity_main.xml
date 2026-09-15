@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0a0a0f"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎤 MIC HOOK"
+        android:textColor="#00f5d4"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_request_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="1. CẤP QUYỀN OVERLAY"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_request_audio"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="2. CẤP QUYỀN MIC"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btn_start_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="3. BẬT TOOL NỔI"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btn_stop_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="TẮT TOOL"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
