@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E610101A"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/overlay_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MIC HOOK"
+            android:textColor="#00f5d4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/overlay_minimize"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/overlay_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:textColor="#ff4d6d"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/overlay_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_toggle_mic"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="BẬT XỬ LÝ MIC" />
+    </LinearLayout>
+</LinearLayout>
